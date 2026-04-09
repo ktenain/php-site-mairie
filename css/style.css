@@ -1,0 +1,215 @@
+﻿/* écran maxi 1280px */
+html{
+	background-image:radial-gradient(white, #E4D1C0);
+}
+body{
+	font-family: Arial, sans-serif;
+}
+.navbar-inverse{
+	background : #E4D1C0;
+	border-color: #E4D1C0;
+}
+.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover{
+color: #007760;
+}
+.navbar-inverse .navbar-nav > li > a{
+color: #00ADEF ;
+}
+header{
+	text-align:center;
+}
+section{
+	display: inline-block;
+}
+aside{
+	text-align: center;
+	background-image:radial-gradient(white, #E4D1C0);
+	border: 3px #E4D1C0 groove;
+	border-radius: 10px;
+	box-shadow: 6px 6px 6px #E4D1C0;
+	padding: 10px;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	margin-right: 1%;
+	margin-left: 1%;
+	float:right;
+	width:35%;
+}
+section.evenement{
+	text-align: center;
+	background-image:radial-gradient(white, #007760);
+	border: 3px #007760 groove;
+	border-radius: 10px;
+	box-shadow: 6px 6px 6px #007760;
+	padding: 10px;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	margin-right: 1%;
+	margin-left: 1%;
+	float:right;
+	width:35%;
+}
+article{
+	text-align: center;
+	background-image:radial-gradient(white, #A9E0F9);
+	border: 3px #00ADEF groove;
+	border-radius: 10px;
+	box-shadow: 6px 6px 6px #00ADEF;
+	padding: 10px;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	margin-right: 1%;
+	margin-left: 1%;
+	float:left;
+	width:55%;
+}
+footer{
+	height: 43px;
+	background: url("../images/4saisons.png") repeat-x bottom;
+}
+th, td{
+	padding: 2px 10px;
+}
+p{
+  text-align: left;
+  overflow: auto;
+  word-wrap: break-word;
+}
+p.titrer{
+	color: #FF0400;
+	font-size:large;
+}
+div.contenur{
+	border: 3px #FF0400 groove;
+	border-radius: 10px;
+	box-shadow: 6px 6px 6px #FF0400;
+	padding: 10px;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	margin-right: 1%;
+	margin-left: 1%;
+}
+p.titrev{
+	color: #007760;
+	font-size:large;
+}
+div.contenuv{
+	border: 3px #007760 groove;
+	border-radius: 10px;
+	box-shadow: 6px 6px 6px #007760;
+	padding: 10px;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	margin-right: 1%;
+	margin-left: 1%;
+}
+p.titreb{
+	color: #00ADEF;
+	font-size:large;
+}
+div.contenub{
+	border: 3px #00ADEF groove;
+	border-radius: 10px;
+	box-shadow: 6px 6px 6px #00ADEF;
+	padding: 10px;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	margin-right: 1%;
+	margin-left: 1%;
+}
+p.titreo{
+	color: #E4D1C0;
+	font-size:large;
+}
+div.contenuo{
+	border: 3px #E4D1C0 groove;
+	border-radius: 10px;
+	box-shadow: 6px 6px 6px #E4D1C0;
+	padding: 10px;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	margin-right: 1%;
+	margin-left: 1%;
+}
+td.att{
+	background-color: #FF8000;
+}
+td.con{
+	background-color: #FF0000;
+}
+td.lib{
+	background-color: #A9F5A9;
+}
+tr.jours{
+	background-color: #DAEDFC;
+}
+td.numero{
+	border-left:1px solid #A9F5A9;
+	border-right:1px solid #A9F5A9;
+	border-top:1px solid #A9F5A9;
+	border-bottom:1px solid #A9F5A9;
+}
+.masque{
+ visibility: hidden;
+ display:none;
+}
+.affiche{
+ visibility: visible;
+ display:;
+}
+.affichemessage{
+ visibility: visible;
+ font-size : 200%; 
+ background-color: #DAEDFC;
+ width: 300px;
+ height: 40px;
+}
+.message{
+ visibility: visible;
+ display:;
+  color: #FF0000;
+ font-size : 120%; 
+}
+.etape{
+ font-size : 120%; 
+ background-color: #DAEDFC;
+ padding: 2px;
+}
+.titre{
+ font-size : 120%;
+ color: #337ab7;
+ padding: 2px;
+}
+.hp {
+    display: none;
+}
+label{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.ressource{
+	border-radius: 3px;
+	background: #00ADEF;
+	font-size : 120%; 
+	font-weight: bold;
+}
+.partie{
+	background: #007760;
+	font-size : 100%;
+	font-weight: normal;
+}
+.occasion{
+	background: #007760;
+	font-size : 100%;
+	font-weight: normal;
+}
+.periode{
+	background: #007760;
+	font-size : 100%;
+	font-weight: normal;
+}
+.plus{
+	background: #E4D1C0;
+	font-size : 100%;
+	font-weight: normal;
+}
